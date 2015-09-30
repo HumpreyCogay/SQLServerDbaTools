@@ -1,4 +1,4 @@
-declare @RPT_BEGIN_DATE datetime
+declare @RPT_BEGIN_DATE datetime 
 declare @NUMBER_OF_DAYS int
 -- Set the number of days to go back to calculate the report begin date
 set @NUMBER_OF_DAYS = -7
